@@ -1,11 +1,10 @@
 {
 	"recommendations": [
 		"steoates.autoimport",
-		"formulahendry.auto-rename-tag",
-		"ms-azuretools.vscode-docker",
 		"mikestead.dotenv",
 		"dsznajder.es7-react-js-snippets",
 		"dbaeumer.vscode-eslint",
+		"csstools.postcss",
 		"esbenp.prettier-vscode",
 		"ms-playwright.playwright",
 		"yoavbls.pretty-ts-errors",
