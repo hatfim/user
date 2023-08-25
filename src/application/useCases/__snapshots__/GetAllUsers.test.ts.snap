@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GetAllUsers UseCase logs unexpected error and rethrows 1`] = `undefined`;

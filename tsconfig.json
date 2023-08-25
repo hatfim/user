@@ -1,11 +1,22 @@
 {
 	"compilerOptions": {
+		"baseUrl": "./",
 		"target": "ES2020",
 		"useDefineForClassFields": true,
 		"lib": ["ES2020", "DOM", "DOM.Iterable"],
 		"module": "ESNext",
 		"skipLibCheck": true,
 		"esModuleInterop": true,
+
+		/* Alias */
+		"paths": {
+			"@application/*": ["src/application/*"],
+			"@services/*": ["src/services/*"],
+			"@lib/*": ["src/lib/*"],
+			"@ui/*": ["src/ui/*"],
+			"@domains/*": ["src/domains/*"],
+			"@user/*": ["src/domains/User/*"]
+		},
 
 		/* Bundler mode */
 		"moduleResolution": "bundler",

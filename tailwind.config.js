@@ -3,9 +3,9 @@ const { fontFamily } = require('tailwindcss/defaultTheme');
 
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./index.html",
+    './src/ui/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/domains/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     container: {
@@ -52,6 +52,9 @@ module.exports = {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
         },
+        avatar: {
+          DEFAULT: 'hsl(var(--avatar))',        
+        }
       },
       borderRadius: {
         xl: `calc(var(--radius) + 4px)`,
@@ -59,9 +62,9 @@ module.exports = {
         md: `calc(var(--radius) - 2px)`,
         sm: 'calc(var(--radius) - 4px)',
       },
-      fontFamily: {
-        sans: ['var(--font-sans)', ...fontFamily.sans],
-      },
+      // fontFamily: {
+      //   sans: ['Space Mono', ...fontFamily.sans],
+      // },
       keyframes: {
         'accordion-down': {
           from: { height: 0 },
